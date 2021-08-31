@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8080
+ADD target/tlttest-notes-app.jar tlttest-notes-app.jar
+ENTRYPOINT ["java","-jar","tlttest-notes-app.jar"]
