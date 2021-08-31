@@ -13,15 +13,12 @@ Application that allows user to create ,update and delete the notes. Restful API
 #Running the application Locally using Docker:
 1. Run the mongodb using Docker Container (Pull the mongodb from the Docker hub and start the server on port 27017)
 2. Build the Project using Maven Build tool.
-3. Using Docker, build the docker image from the Dockerfile location in the project root foler.
+3. Using Docker, build the docker image from the Dockerfile location in the project root folder.
 4. Check for both mongodb and application docker images.
-5. Run the application docker by linking it to the mongodb using the command mentioned below:
-docker run -p 8080:8080 --name tlttest-notesapp-mongo --link mymongodb:mongo -d tlttest-notes-app:1.0
+5. Run the application using docker-compose up command from gthe location of the docker-compose.yml file
 
 The docker images can be pushed to the docker hub using the command:
 docker image push username/tagname
-
-Command to execute the Spring Application (without docker) from the terminal : java -jar jarname (This has to be executed from the location where the jar file is present)
 
 #Testing and API endpoints:
 #For the API endpoints refer to the below URL once the spring application is started successfully
