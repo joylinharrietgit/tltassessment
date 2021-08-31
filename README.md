@@ -3,12 +3,12 @@ Application that allows user to create ,update and delete the notes. Restful API
 
 #Technologies and tools used
 
-Java version 11.0
-Spring Boot Framework version 2.4.10
-MongoDb 5.0.2 (Community Server) OR Mongo Container using Docker 
-Maven Build tool
-Eclipse IDE for development
-Swagger2 for API Docuemntation (Springfox 3.0.0)
+1.Java version 11.0 
+2. Spring Boot Framework version 2.4.10
+3. MongoDb 5.0.2 (Community Server) OR Mongo Container using Docker 
+4. Maven Build tool
+5. Eclipse IDE for development
+6. Swagger2 for API Docuemntation (Springfox 3.0.0)
 
 #Running the application Locally using Docker:
 1. Run the mongodb using Docker Container (Pull the mongodb from the Docker hub and start the server on port 27017)
@@ -17,6 +17,7 @@ Swagger2 for API Docuemntation (Springfox 3.0.0)
 4. Check for both mongodb and application docker images.
 5. Run the application docker by linking it to the mongodb using the command mentioned below:
 docker run -p 8080:8080 --name tlttest-notesapp-mongo --link mymongodb:mongo -d tlttest-notes-app:1.0
+
 The docker images can be pushed to the docker hub using the command:
 docker image push username/tagname
 
