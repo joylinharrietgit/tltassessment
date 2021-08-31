@@ -33,7 +33,7 @@ Application that allows user to create ,update and delete the notes. Restful API
     ```
  5. Depoy the application using Docker compose
     ```docker-compose 
-   docker-compose up
+    docker-compose up
     ```
 
 The docker images can be pushed to the docker hub using the command:
