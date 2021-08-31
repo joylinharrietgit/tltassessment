@@ -1,4 +1,4 @@
-## TltTestAssignment
+## TltTestAssessment
 Application that allows user to create ,update and delete the notes. Restful API for application has been developed.
 
 ## Technologies and tools used
